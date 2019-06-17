@@ -346,9 +346,9 @@ View_User_info(){
 	echo -e " 剩余的流量 : ${Green_font_prefix}${transfer_enable_Used} ${Font_color_suffix}"
 	echo -e " 用户总流量 : ${Green_font_prefix}${transfer_enable} ${Font_color_suffix}"
 	echo -e "${ss_link}"
-	
+	echo
 	echo -e "${ssr_link}"
-	echo && echo "==================================================="
+	echo "==================================================="
 }
 # 设置 配置信息
 Set_config_user(){
