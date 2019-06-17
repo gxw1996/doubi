@@ -345,6 +345,7 @@ View_User_info(){
 	echo -e " 已使用流量 : 上传: ${Green_font_prefix}${u}${Font_color_suffix} + 下载: ${Green_font_prefix}${d}${Font_color_suffix} = ${Green_font_prefix}${transfer_enable_Used_2}${Font_color_suffix}"
 	echo -e " 剩余的流量 : ${Green_font_prefix}${transfer_enable_Used} ${Font_color_suffix}"
 	echo -e " 用户总流量 : ${Green_font_prefix}${transfer_enable} ${Font_color_suffix}"
+	echo
 	echo -e "${ss_link}"
 	echo
 	echo -e "${ssr_link}"
